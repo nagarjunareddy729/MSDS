@@ -1,0 +1,19 @@
+To reproduce the results, kindly refrain from changing the input file names. Please refer the code in following order:
+
+1. Class Balancing ==> MSDS_Data_Prep - Copy.ipynb
+	Refer Data Understanding, Data Cleaning, EDA and Data Preparion sections
+	
+2. GAN Training ==> MSDS_GAN.ipynb
+	Refer MSDS_GAN.ipynb for GAN training
+	
+3. Class Balancing ==> MSDS_Data_Prep - Copy.ipynb
+	Refer Data Modelling for balancing the imbalanced data and training of GLM models.
+	
+4. Models_10 percent data ==> MSDS_10_LR_RF.ipynb
+	Refer MSDS_10_LR_RF.ipynb for data enrichment of 10% data and training of GLM and Random Forest models
+	
+5. Models_20 percent data ==> MSDS_20_LR_RF.ipynb
+	Refer MSDS_20_LR_RF.ipynb for data enrichment of 20% data and training of GLM and Random Forest models
+	
+6. Models_40 percent data ==> MSDS_40_LR_RF.ipynb
+	Refer MSDS_40_LR_RF.ipynb for data enrichment of 40% data and training of GLM and Random Forest models
